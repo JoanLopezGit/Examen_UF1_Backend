@@ -2,7 +2,11 @@
 
 require_once '../model/pdo-articles.php';
 require_once '../controller/input-common.php';
+/*
 require_once '../controller/images.php';
+//Ex2
+*/
+include_once'../controller/images.php';
 require_once '../controller/session.php';
 
 $errors = [];
