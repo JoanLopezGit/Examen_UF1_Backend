@@ -19,8 +19,8 @@ if (isset($_POST['submit'])) {
     onSubmit();
 }
 
-require_once '../view/login.view.php';
-
+// Ex2 require_once '../view/login.view.php';
+include_once '../view/login.view.php';
 function onSubmit()
 {
     global $errors, $email, $password;
