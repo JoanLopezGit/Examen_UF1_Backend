@@ -6,7 +6,8 @@ require_once '../controller/input-common.php';
 require_once '../controller/images.php';
 //Ex2
 */
-include_once'../controller/images.php';
+
+include_once '../controller/images.php';
 require_once '../controller/session.php';
 
 $errors = [];
@@ -61,9 +62,9 @@ if (isset($_GET['id'])) {
     $article = getPost($articleId);
 
 } else unset($_SESSION['articleId']);
-
-require_once '../view/edit.view.php';
-
+//Ex2
+//require_once '../view/edit.view.php';
+include_once('../view/edit.view.php');
 // Funcions
 
 /**
