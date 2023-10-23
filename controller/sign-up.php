@@ -24,8 +24,8 @@ if(isset($_POST['email'])) {
     signup($email, $nickname, $password1, $password2);
 }
 
-require_once '../view/sign-up.view.php';
-
+// Ex2 require_once '../view/sign-up.view.php';
+include_once '../view/sign-up.view.php';
 // Funcions
 
 /**
